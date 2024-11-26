@@ -110,7 +110,7 @@ public class FloatDoubleExample {
     System. out println("var4: " + var4);
     System. out. println("var5: " + var5);
     
-    //e 사용하기
+    // e 사용하기
     double var6 = 3еб;
     float var7 = 3e6F;
     double var8 = 2e-3;
