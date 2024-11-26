@@ -3,7 +3,7 @@ package sec03.exam01;
 public class Hello {
   public static void main(String[] args) {
 		
-  System.out.println("Hello, Java");
+    System.out.println("Hello, Java");
   }
 }
 
@@ -14,6 +14,6 @@ public class RunStatementExample {
     int x = 1;							
     int y = 2;							
     int result = x + y;				
-  System.out.println(result);	
+    System.out.println(result);	
   }
 }
