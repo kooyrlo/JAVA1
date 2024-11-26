@@ -1,53 +1,53 @@
 package sec01.exam01;
 
 public class VariableInitializationExample {
-	public static void main(String[] args) {
-		
-		int value;
-
-		int result = value + 10;
-		
-		System.out.println(result);
+  public static void main(String[] args) {
+	
+    int value;
+	
+    int result = value + 10;
+			
+    System.out.println(result);
   }
 }
 
 package sec01.exam02;
 
 public class VariableUseExample {
-	public static void main(String[] args) {
-		int hour = 3;
-		int minute = 5;
-		System.out.println(hour + "시간 " + minute + "분");
+  public static void main(String[] args) {
+    int hour = 3;
+    int minute = 5;
+    System.out.println(hour + "시간 " + minute + "분");
 
-		int totalMinute = (hour*60) + minute;
-		System.out.println("총" + totalMinute + "분"); 
-	}
+    int totalMinute = (hour*60) + minute;
+    System.out.println("총" + totalMinute + "분"); 
+  }
 }
 
 package sec01.exam03;
 
 public class VariableExchangeExample {
-	public static void main(String[] args) {
-		int x = 3;
-		int y = 5;
-		System.out.println("x:" + x + ", y:" + y);
+  public static void main(String[] args) {
+    int x = 3;
+    int y = 5;
+    System.out.println("x:" + x + ", y:" + y);
 		
-		int temp = x;
-		x = y;
-		y = temp;
-		System.out.println("x:" + x + ", y:" + y);
-	}
+    int temp = x;
+    x = y;
+    y = temp;
+    System.out.println("x:" + x + ", y:" + y);
+  }
 }
 
 package sec01.exam04;
 
 public class VariableScopeExample {
-	public static void main(String[] args) {
-		int v1 = 15;
-		if(v1>10) {
-			int v2;
-			v2 = v1 - 10;
-		}
-		int v3 = v1 + v2 + 5;  //v2 변수를 사용할 수 없기 때문에 컴파일 에러 발생 
-	}
+  public static void main(String[] args) {
+    int v1 = 15;
+  if(v1>10) {
+    int v2;
+    v2 = v1 - 10;
+}
+    int v3 = v1 + v2 + 5;  //v2 변수를 사용할 수 없기 때문에 컴파일 에러 발생 
+  }
 }
